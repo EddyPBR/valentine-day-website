@@ -1,0 +1,42 @@
+:root {
+  --green-color: #25D060;
+  --blue-color: #2A6FC9;
+  --red-color: #E50914;
+  --main-dark: #18191A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--main-dark);
+  -webkit-font-smoothing: antialiased;
+  color: #FFF;
+}
+
+body,
+input,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #FFF;
+  font-family: Montserrat;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

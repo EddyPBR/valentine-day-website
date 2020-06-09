@@ -1,0 +1,32 @@
+.main-box {
+  width: 640px;
+  min-height: 480px;
+  border-radius: 25px;
+  padding: 24px;
+  background: linear-gradient(120deg,#f8444d 0%, #E50914 100%);
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.main-box header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.main-box header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.main-box header h2 {
+  font-size: 18px;
+}
+
+.main-box p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
