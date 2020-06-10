@@ -15,6 +15,7 @@ body {
   background: var(--main-dark);
   -webkit-font-smoothing: antialiased;
   color: #FFF;
+  overflow: hidden;
 }
 
 body,

@@ -1,9 +1,10 @@
 import React from "react";
 import "./styles.css";
+import { Link } from "react-scroll";
 
 const Screen = (props) => {
   return (
-    <div className="screen-full" style={{background: props.bgColor, color: props.textColor}}>
+    <div id={Number(props.sequency)} className="screen-full" style={{background: props.bgColor, color: props.textColor}}>
       <div className="container">
         <header>
           <img src={props.imageUrl} alt="simple gif" />
@@ -13,7 +14,15 @@ const Screen = (props) => {
           <p>{props.text}</p>
         </div>
         <footer>
-          <button type="button">{props.btnText}</button>
+          <Link
+            activeClass="active"
+            to={Number(props.sequency) + 1}
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1200}
+            ignoreCancelEvents={true}
+          >{props.btnText}</Link>
         </footer>
       </div>
     </div>
