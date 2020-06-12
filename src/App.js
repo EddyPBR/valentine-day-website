@@ -51,7 +51,7 @@ const App = () => {
         bgColor={colors.pink}
         textColor={colors.white}
         title="Pandinha"
-        text="A pandinha é muito fofinha, sempre se preocupa com o próximo, mas ela não tem paciência alguma. E tem um jeito diferente de mostarr o que sente..."
+        text="A pandinha é muito fofinha, sempre se preocupa com o próximo, mas ela não tem paciência alguma. E tem um jeito diferente de mostrar o que sente..."
         btnText="Continuar"
         sequency="3"
       />
@@ -132,7 +132,7 @@ const App = () => {
         bgColor={colors.red}
         textColor={colors.white}
         title="Depois disso..."
-        text="Depois de tudo resolvido, os dois ficam bem e ficam felizes... e fazem uma muitas coisas juntos"
+        text="Depois de tudo resolvido, os dois ficam bem e ficam felizes... e fazem muitas coisas juntos como amigos e namorados que são."
         btnText="Continuar"
         sequency="12"
       />
@@ -168,7 +168,7 @@ const App = () => {
         bgColor={colors.blue}
         textColor={colors.white}
         title="A ursinha fica brincando com o ursinho"
-        text="Parece divertido olhando assim hahaha ... para a ursinha, olha a cara dela!"
+        text="Parece divertido olhando assim hahaha ... para a ursinha é claro... olha o coitado do ursinho, olha a cara pandinha! ~coitado_gente"
         btnText="Mordidas depois..."
         sequency="16"
       />
